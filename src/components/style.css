@@ -1,0 +1,38 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.welcome {
+    display: -webkit-box;
+    display: flex;
+    position: absolute;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    transition: color .24s ease-in-out;
+    text-align: center;
+    font-family: 'Helvetica', serif;
+    border: 2vw dashed white;
+    background-color: #1a1818;
+    color: #f2f2f2;
+    font-size: 6vw;
+}
+
+.welcomeActive {
+    border-color: #eee;
+    color: #eee;
+    background-color: #75c561;
+}
+
+.welcomeActiveRej {
+    border-color: #eee;
+    color: #eee;
+    background-color: #c46262;
+}
